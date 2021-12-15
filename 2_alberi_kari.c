@@ -13,7 +13,7 @@ typedef struct kTreeVertex *kTree;
 kTree NewNode(int key)
 {
     kTree node = NULL;
-    node = (struct kTreeVertex *)malloc(sizeof(struct kTreeVertex));
+    node = (kTree)malloc(sizeof(struct kTreeVertex));
     node->sibling = NULL;
     node->child = NULL;
     node->key = key;
