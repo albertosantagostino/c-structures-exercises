@@ -37,6 +37,12 @@ list GenerateList(int length)
     return head;
 }
 
+// TODO
+// list Reverse(list l)
+// {
+//     
+// }
+
 int main()  
 {
     list abc = GenerateList(3);
