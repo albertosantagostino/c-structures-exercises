@@ -37,7 +37,7 @@ list GenerateList(int length)
     return head;
 }
 
-// TODO
+// TODO: Reverse the list l and return its pointer
 // list Reverse(list l)
 // {
 //     

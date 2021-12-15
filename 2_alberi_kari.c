@@ -56,7 +56,7 @@ void TraverseTree(kTree root)
     }
 }
 
-// TODO
+// TODO: Return the amount of internal nodes of t
 // int CountInt(kTree t)
 // {
 //     

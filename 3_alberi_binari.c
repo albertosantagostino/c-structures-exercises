@@ -51,18 +51,18 @@ void TraverseTree(bTree root)
     }
 }
 
-// TODO
+// TODO: Return a pointer to the node with minimum key in tree bt
 // btree MinInBtree(bTree bt)
 // {
 //     
 // }
-// TODO
-// btree RightAncestor(bTree bt)
+// TODO Return the nearest right ancestor to the node nd (or NULL if doesn't exist)
+// btree RightAncestor(bTree nd)
 // {
 //     
 // }
-// TODO
-// btree Successor(bTree bt)
+// TODO Return a pointer to the successor of node nd (or NULL if doesn't exist)
+// btree Successor(bTree nd)
 // {
 //     
 // }
