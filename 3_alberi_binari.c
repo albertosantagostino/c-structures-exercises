@@ -4,9 +4,9 @@
 struct BtreeNd
 {
     int key;
-    struct BtreeNd* parent;
-    struct BtreeNd* left;
-    struct BtreeNd* right;
+    struct BtreeNd *parent;
+    struct BtreeNd *left;
+    struct BtreeNd *right;
 };
 
 typedef struct BtreeNd *bTree;
@@ -54,24 +54,37 @@ void TraverseTree(bTree root)
 // TODO: Return a pointer to the node with minimum key in tree bt
 // btree MinInBtree(bTree bt)
 // {
-//     
+//
 // }
 // TODO Return the nearest right ancestor to the node nd (or NULL if doesn't exist)
 // btree RightAncestor(bTree nd)
 // {
-//     
+//
 // }
 // TODO Return a pointer to the successor of node nd (or NULL if doesn't exist)
 // btree Successor(bTree nd)
 // {
-//     
+//
 // }
 
 int main()
 {
-    // TODO: Define btree here
+    /*    1
+         / \
+        /   \
+       2     3
+      / \   / \
+     4   5 9   2 
 
-    // TraverseTree(root);
+    */
+
+    bTree root = NewNode(1);
+    bTree l1 = AddLeft(root, 2);
+    bTree r1 = AddRight(root, 3);
+    bTree r21 = AddLeft(r1, 9);
+    bTree r22 = AddRight(r1, 2);
+    bTree l21 = AddLeft(l1, 4);
+    bTree l22 = AddRight(l1, 5);
 
     return 0;
 }
