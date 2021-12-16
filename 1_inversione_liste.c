@@ -40,12 +40,12 @@ list GenerateList(int length)
 // TODO: Reverse the list l and return its pointer
 // list Reverse(list l)
 // {
-//     
+//
 // }
 
-int main()  
+int main()
 {
-    list abc = GenerateList(3);
+    list abc = GenerateList(8);
 
     PrintList(abc);
 

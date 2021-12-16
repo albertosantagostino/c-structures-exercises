@@ -37,7 +37,6 @@ bTree AddRight(bTree n, int key)
     return (n->right = NewNode(key));
 }
 
-
 // TODO: Fix the function so that you can traverse the tree properly!
 // Find the error :)
 void TraverseTree(bTree root)

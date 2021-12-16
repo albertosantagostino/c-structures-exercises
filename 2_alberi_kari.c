@@ -59,7 +59,12 @@ void TraverseTree(kTree root)
 // TODO: Return the amount of internal nodes of t
 // int CountInt(kTree t)
 // {
-//     
+//
+// }
+// TODO: Return the sum of the keys of the leaves
+// int SumLeaves(kTree t)
+// {
+//
 // }
 
 int main()
