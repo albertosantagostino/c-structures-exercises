@@ -43,6 +43,24 @@ list GenerateList(int length)
 //
 // }
 
+// TODO: Write a function to count the number of elements in the list
+// int GetLength(list l)
+// {
+//
+// }
+
+// TODO: Write a function to append a new element at the end of the list
+// void AddValue(list l, int new_val)
+// {
+//
+// }
+
+// TODO: Write a function to delete the last element of the list
+// void DeleteValue(list l)
+// {
+//
+// }
+
 int main()
 {
     list abc = GenerateList(8);
